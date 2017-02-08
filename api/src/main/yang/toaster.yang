@@ -1,0 +1,153 @@
+module toaster {
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:toaster";
+    prefix "toaster";
+
+    //Defines the organization which defined / owns this .yang file.
+    organization "Netconf Central";
+
+    //defines the primary contact of this yang file.
+    contact
+      "Andy Bierman <andy@netconfcentral.org>";
+
+    //provides a description of this .yang file.
+    description
+      "YANG version of the TOASTER-MIB.";
+
+    revision "2015-01-05" {
+        description "Initial revision of toaster model";
+    }
+
+    //declares a base identity, in this case a base type for different types of toast.
+    identity toast-type {
+      description
+        "Base for all bread types supported by the toaster. New bread types not listed here nay be added in the future.";
+    }
+
+    //the below identity section is used to define globally unique identities
+    //Note - removed a number of different types of bread to shorten the text length.
+    identity white-bread {
+      base toast-type;       //logically extending the declared toast-type above.
+      description "White bread.";  //free text description of this type.
+    }
+
+    identity wheat-bread {
+      base toast-type;
+      description "Wheat bread.";
+    }
+
+    identity wonder-bread {
+      base toast-type;
+      description "Wonder bread.";
+    }
+
+    // This definition is the top-level configuration "item" that defines a toaster. The "presence" flag connotes there
+    // can only be one instance of a toaster which, if present, indicates the service is available.
+    container toaster {
+      presence
+        "Indicates the toaster service is available";
+      description
+        "Top-level container for all toaster database objects.";
+
+      //Note in these three attributes that config = false. This indicates that they are operational attributes.
+      leaf toasterManufacturer {
+        type string;
+        config false;
+        mandatory true;
+        description
+          "The name of the toaster's manufacturer. For instance, Microsoft Toaster.";
+      }
+
+      leaf toasterModelNumber {
+        type string;
+        config false;
+        mandatory true;
+        description
+          "The name of the toaster's model. For instance, Radiant Automatic.";
+      }
+
+      leaf toasterStatus {
+        type enumeration {
+          enum "up" {
+            value 1;
+            description
+              "The toaster knob position is up. No toast is being made now.";
+          }
+          enum "down" {
+            value 2;
+            description
+              "The toaster knob position is down. Toast is being made now.";
+          }
+        }
+        config false;
+        mandatory true;
+        description
+          "This variable indicates the current state of  the toaster.";
+      }
+
+      leaf darknessFactor {
+        type string;
+        config true;
+        description "The darkness factor";
+      }
+    }
+
+    container info {
+      description
+        "some information of rpcs";
+
+      leaf name {
+        type string;
+        config false;
+        description
+          "the rpc name";
+      }
+
+      leaf time {
+        type string;
+        config false;
+        description
+          "the time when rpc was called";
+      }
+
+      leaf tid {
+        type string;
+        config false;
+        description
+          "The thread id of toaster"; //always 1 because there is only 1 toaster, its type can be uint
+      }
+
+      leaf pid {
+        type string;
+        config false;
+        description "The JVM process id";
+      }
+    }
+
+    rpc make-toast{
+      input{
+        leaf toasterDoneness {
+          type uint16 {
+            range "1 .. 10";
+          }
+          default '5';  
+        }
+        leaf toasterToastType {
+          type identityref {
+            base toast-type;
+          }
+          default 'wheat-bread';
+        }
+      }
+    }
+
+    rpc cancel-toast {
+
+    }
+
+    notification toastDone{
+      leaf toastStatus{
+        type uint32;
+      }
+    }
+}

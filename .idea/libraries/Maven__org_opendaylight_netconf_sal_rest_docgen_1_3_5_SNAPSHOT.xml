@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.netconf:sal-rest-docgen:1.3.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/netconf/sal-rest-docgen/1.3.5-SNAPSHOT/sal-rest-docgen-1.3.5-20170205.102922-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/netconf/sal-rest-docgen/1.3.5-SNAPSHOT/sal-rest-docgen-1.3.5-20170205.102922-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/netconf/sal-rest-docgen/1.3.5-SNAPSHOT/sal-rest-docgen-1.3.5-20170205.102922-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

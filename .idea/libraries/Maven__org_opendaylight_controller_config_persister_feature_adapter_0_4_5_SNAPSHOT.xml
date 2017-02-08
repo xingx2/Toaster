@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:config-persister-feature-adapter:0.4.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-feature-adapter/0.4.5-SNAPSHOT/config-persister-feature-adapter-0.4.5-20170205.011418-15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-feature-adapter/0.4.5-SNAPSHOT/config-persister-feature-adapter-0.4.5-20170205.011418-15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-feature-adapter/0.4.5-SNAPSHOT/config-persister-feature-adapter-0.4.5-20170205.011418-15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

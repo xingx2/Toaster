@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal:mdsal-binding-generator-api:0.8.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-generator-api/0.8.5-SNAPSHOT/mdsal-binding-generator-api-0.8.5-20170205.092403-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-generator-api/0.8.5-SNAPSHOT/mdsal-binding-generator-api-0.8.5-20170205.092403-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-generator-api/0.8.5-SNAPSHOT/mdsal-binding-generator-api-0.8.5-20170205.092403-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

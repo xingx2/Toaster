@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.odlparent:features-test:1.6.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/odlparent/features-test/1.6.5-SNAPSHOT/features-test-1.6.5-20170205.084249-18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/odlparent/features-test/1.6.5-SNAPSHOT/features-test-1.6.5-20170205.084249-18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/odlparent/features-test/1.6.5-SNAPSHOT/features-test-1.6.5-20170205.084249-18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

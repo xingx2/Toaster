@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:ietf-topology-isis:2013.10.21.8.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-topology-isis/2013.10.21.8.5-SNAPSHOT/ietf-topology-isis-2013.10.21.8.5-20170205.092431-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-topology-isis/2013.10.21.8.5-SNAPSHOT/ietf-topology-isis-2013.10.21.8.5-20170205.092431-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-topology-isis/2013.10.21.8.5-SNAPSHOT/ietf-topology-isis-2013.10.21.8.5-20170205.092431-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

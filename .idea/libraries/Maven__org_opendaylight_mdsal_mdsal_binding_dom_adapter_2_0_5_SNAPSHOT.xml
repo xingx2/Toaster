@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal:mdsal-binding-dom-adapter:2.0.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-dom-adapter/2.0.5-SNAPSHOT/mdsal-binding-dom-adapter-2.0.5-20170205.092359-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-dom-adapter/2.0.5-SNAPSHOT/mdsal-binding-dom-adapter-2.0.5-20170205.092359-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/mdsal-binding-dom-adapter/2.0.5-SNAPSHOT/mdsal-binding-dom-adapter-2.0.5-20170205.092359-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

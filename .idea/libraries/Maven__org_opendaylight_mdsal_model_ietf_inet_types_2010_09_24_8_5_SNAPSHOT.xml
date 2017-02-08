@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:ietf-inet-types:2010.09.24.8.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-inet-types/2010.09.24.8.5-SNAPSHOT/ietf-inet-types-2010.09.24.8.5-20170205.092423-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-inet-types/2010.09.24.8.5-SNAPSHOT/ietf-inet-types-2010.09.24.8.5-20170205.092423-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-inet-types/2010.09.24.8.5-SNAPSHOT/ietf-inet-types-2010.09.24.8.5-20170205.092423-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

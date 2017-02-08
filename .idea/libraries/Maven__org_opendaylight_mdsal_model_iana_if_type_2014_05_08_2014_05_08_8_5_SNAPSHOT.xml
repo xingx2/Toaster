@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:iana-if-type-2014-05-08:2014.05.08.8.5-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-if-type-2014-05-08/2014.05.08.8.5-SNAPSHOT/iana-if-type-2014-05-08-2014.05.08.8.5-20170205.092421-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-if-type-2014-05-08/2014.05.08.8.5-SNAPSHOT/iana-if-type-2014-05-08-2014.05.08.8.5-20170205.092421-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-if-type-2014-05-08/2014.05.08.8.5-SNAPSHOT/iana-if-type-2014-05-08-2014.05.08.8.5-20170205.092421-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
